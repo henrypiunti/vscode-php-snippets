@@ -41,5 +41,12 @@
 			"}"
 		],
 		"description": "New Class"
+	},
+	"Throw Exception": {
+		"prefix": "thr",
+		"body": [
+			"throw new ${1:\\Exception}(${2:'Error'});"
+		],
+		"description": "Throw an exception"
 	}
 }
