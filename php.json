@@ -1,0 +1,45 @@
+{
+	// Place your snippets for php here. Each snippet is defined under a snippet name and has a prefix, body and 
+	// description. The prefix is what is used to trigger the snippet and the body will be expanded and inserted. Possible variables are:
+	// $1, $2 for tab stops, $0 for the final cursor position, and ${1:label}, ${2:another} for placeholders. Placeholders with the 
+	// same ids are connected.
+	"Public Function": {
+		"prefix": "pubf",
+		"body": [
+			"public function $1(): ${2:void}",
+			"{",
+			"\t$3",
+			"}"
+		],
+		"description": "New public function"
+	},
+	"Protected Function": {
+		"prefix": "prof",
+		"body": [
+			"protected function $1(): ${2:void}",
+			"{",
+			"\t$3",
+			"}"
+		],
+		"description": "New protected function"
+	},
+	"Private Function": {
+		"prefix": "prif",
+		"body": [
+			"private function $1(): ${2:void}",
+			"{",
+			"\t$3",
+			"}"
+		],
+		"description": "New private function"
+	},
+	"Class": {
+		"prefix": "class",
+		"body": [
+			"class ${TM_FILENAME_BASE} {",
+			"\t$1",
+			"}"
+		],
+		"description": "New Class"
+	}
+}
